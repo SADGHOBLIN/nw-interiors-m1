@@ -83,6 +83,29 @@ h2 {
    object-position: 4% 80%;
 }
 
+@keyframes arrow-scroller {
+   0% {bottom: 2%; opacity: 0;}
+   10% {bottom: 2%; opacity: 0;}
+   20% {bottom: 2%; opacity: 1;}
+   40% {bottom: 2%; opacity: 1;}
+   55% {bottom: 1%; opacity: 1;}
+   65% {bottom: 1.5%; opacity: 1;}
+   75% {bottom: 1%; opacity: 1;}
+   100% {bottom: 1%; opacity: 0;}
+}
+
+.scroll-arrow {
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   transform: translateX(-50%);
+   color: black; /* change to match colour scheme */
+   opacity: 0;
+   animation: arrow-scroller 2s ease-in-out backwards infinite;
+}
+
+
+
 
  /* Media queries */
 
@@ -111,3 +134,18 @@ h2 {
       object-position: cover cover;
    }
  }
+
+ /* Large screens (small laptops, 992px and up*/
+@media screen and (min-width: 992px) {
+
+ /* Header section */
+ /* scroll indicator to show on larger screens only when header section is hovered */
+ .scroll-arrow {
+   color: white;
+   animation: none;
+}
+
+ .header-section:hover .scroll-arrow {
+   animation: arrow-scroller 2s ease-in-out backwards infinite;
+}
+}

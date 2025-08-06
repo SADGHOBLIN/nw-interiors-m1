@@ -1,151 +1,215 @@
 /* Import Lora font from Adobe Fonts and Manrope font from Google Fonts and Manrope font from Google Fonts */
 @import url("https://use.typekit.net/mbd1prr.css");
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 
- /* CSS variables */
- :root {
-    --font-heading: "lora", serif;
-    --font-body: "Manrope", sans-serif;
- }
-
- /* General styles */
- body {
-   font-family: var(--font-body);
-   /* push body content underneath fixed nav */
-   /* margin-top: 70px; */
+/* CSS variables */
+:root {
+  --font-heading: "lora", serif;
+  --font-body: "Manrope", sans-serif;
 }
 
-h1, 
-h2 {
-    font-family: var(--font-heading);
+/* General styles */
+body {
+  font-family: var(--font-body);
+  /* push body content underneath fixed nav */
+  /* margin-top: 71px; */
 }
 
- /* Navbar */
- #navbar {
-   background-color: rgba(245, 245, 245, 0.8);
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-heading);
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/* Navbar */
+#navbar {
+  background-color: rgba(245, 245, 245, 0.8);
+  min-height: 71px;
 }
 
 #navbar .logo {
-   position: absolute;
-   top: 10px;
-   left: 50%;
-   transform: translateX(-50%);
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-#logo h1 {
-    text-transform: uppercase;
-    font-size: 1rem;
-    font-weight: 400;
-    letter-spacing: 1px;
-    margin: 0;
- }
+#logo-text h1 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0;
+}
 
- #logo h2 {
-    font-size: 0.75rem;
-    font-weight: 300;
-    margin: 0;
- }
+#logo-text p {
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 300;
+  margin: 0;
+}
 
- #navbar .icon {
-   font-size: 1.5rem;
- }
+#navbar .icon {
+  font-size: 1.5rem;
+}
 
- #navbar .navbar-toggler {
-   border: none;
-   margin-top: -3px;
- }
+#navbar .navbar-toggler {
+  border: none;
+  margin-top: -3px;
+}
 
- /* remove Bootstrap property causing burger icon to highlight when clicked */
- #navbar .navbar-toggler:focus {
-   box-shadow: none; /* replace with --secondary-colour for accessibility */
- }
- 
- #navbar .book-form-btn {
-   order: -1;
- }
+/* remove Bootstrap property causing burger icon to highlight when clicked */
+#navbar .navbar-toggler:focus {
+  box-shadow: none; /* replace with --secondary-colour for accessibility */
+}
+
+#navbar .book-form-btn {
+  order: -1;
+}
 
 /* Header section */
 
-.header-section {
-   height: 100vh;
-   width: 100vw;
-   margin: 0;
-   padding: 0;
-   display: flex;
-   position: relative;
+#header {
+   height: 100dvh;
    overflow: hidden;
 }
 
+.header-section {
+  height: 100dvh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
 .header-section img {
-   width: 100%;
-   height: auto;
-   object-fit: cover;
-   object-position: 4% 80%;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: 4% 80%;
 }
 
 @keyframes arrow-scroller {
-   0% {bottom: 2%; opacity: 0;}
-   10% {bottom: 2%; opacity: 0;}
-   20% {bottom: 2%; opacity: 1;}
-   40% {bottom: 2%; opacity: 1;}
-   55% {bottom: 1%; opacity: 1;}
-   65% {bottom: 1.5%; opacity: 1;}
-   75% {bottom: 1%; opacity: 1;}
-   100% {bottom: 1%; opacity: 0;}
+  0% {bottom: 2%; opacity: 0;}
+  10% {bottom: 2%; opacity: 0;}
+  20% {bottom: 2%; opacity: 1;}
+  40% {bottom: 2%; opacity: 1;}
+  55% {bottom: 1%; opacity: 1;}
+  65% {bottom: 1.5%; opacity: 1;}
+  75% {bottom: 1%; opacity: 1;}
+  100% {bottom: 1%; opacity: 0;}
 }
 
 .scroll-arrow {
-   position: absolute;
-   bottom: 0;
-   left: 50%;
-   transform: translateX(-50%);
-   color: black; /* change to match colour scheme */
-   opacity: 0;
-   animation: arrow-scroller 2s ease-in-out backwards infinite;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: black; /* change to match colour scheme */
+  opacity: 0;
+  animation: arrow-scroller 2s ease-in-out backwards infinite;
+}
+
+/* About section */
+
+.test-col {
+  height: 100vh;
+  /* border: 2px solid lime; */
+}
+
+.about-top {
+  height: 50vh;
+  border: 2px solid blue;
+}
+
+.about-bot {
+  height: 50vh;
+  border: 2px solid blue;
+}
+
+.col-8, .col-12 {
+   border: 2px solid red;
+}
+
+#about h2 {
+  color: black;  
+  margin-top: 5%;
+
+  font-weight: 400;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* move this to general styles, as re-using font styling */
+.section-header {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  text-align: end;
+  padding-bottom: 10%;
+}
+
+.about-description {
+  padding-bottom: 3%;
+}
+
+.about-description p {
+  padding: 0 0 8px 0;
+  margin: 0;
 }
 
 
 
 
- /* Media queries */
 
- /* Medium devices (tablets, 768px and up) */
- @media screen and (min-width: 768px) {
-   
-   /* Navbar */
-   #logo h1 {
-      font-size: 1.75rem;
-      letter-spacing: 2px;
-   }
-   #logo h2 {
-      font-size: 1.25rem;
-   }
+/* Media queries */
 
-   #navbar .logo {
-      top: 0;
-   }
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  /* Navbar */
+  #logo-text h1 {
+    font-size: 1.75rem;
+    letter-spacing: 2px;
+  }
+  #logo-text p {
+    font-size: 1.25rem;
+  }
 
-   #navbar i {
-      font-size: 2rem;
-   }
+  #navbar .logo {
+    top: 0;
+  }
 
-   /* Header section */
-   .header-section img {
-      object-position: cover cover;
-   }
- }
+  #navbar i {
+    font-size: 2rem;
+  }
 
- /* Large screens (small laptops, 992px and up*/
+  /* Header section */
+  .header-section img {
+    object-position: cover cover;
+  }
+}
+
+/* Large screens (small laptops, 992px and up*/
 @media screen and (min-width: 992px) {
+  /* Header section */
+  /* scroll indicator to show on larger screens only when header section is hovered */
+  .scroll-arrow {
+    color: white;
+    animation: none;
+  }
 
- /* Header section */
- /* scroll indicator to show on larger screens only when header section is hovered */
- .scroll-arrow {
-   color: white;
-   animation: none;
-}
-
- .header-section:hover .scroll-arrow {
-   animation: arrow-scroller 2s ease-in-out backwards infinite;
-}
+  .header-section:hover .scroll-arrow {
+    animation: arrow-scroller 2s ease-in-out backwards infinite;
+  }
 }

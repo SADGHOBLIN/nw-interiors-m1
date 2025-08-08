@@ -9,6 +9,7 @@
 }
 
 /* General styles */
+
 body {
   font-family: var(--font-body);
   /* push body content underneath fixed nav */
@@ -48,6 +49,7 @@ h4 {
 }
 
 /* Span classes */
+
 .bold {
   font-weight: 600;
 }
@@ -57,6 +59,7 @@ h4 {
 }
 
 /* Navbar */
+
 #navbar {
   background-color: white;
   opacity: 0.8;
@@ -150,17 +153,11 @@ h4 {
 
 /* About section */
 
-/* visual aid only */
-/* .test-col {
-  border: 2px solid lime;
-}
-.col-8, .col-12 {
-   border: 2px solid red;
-} */
-
 #about {
   background-color: white;
   margin-bottom: 2rem;
+  width: 100vw;
+  height: auto;
 }
 
 
@@ -171,6 +168,7 @@ h4 {
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
   /* Navbar */
+
   #logo-text h1 {
     font-size: 1.75rem;
     letter-spacing: 2px;
@@ -189,16 +187,13 @@ h4 {
   }
 
   /* Header section */
+
   .header-section img {
     object-position: cover cover;
   }
 
   /* About section */
-
-  #about {
-    height: 100vh;
-  }
-
+  
   #about .section-flavour-text {
     padding: 5rem 2rem;
     margin: 5rem 0;

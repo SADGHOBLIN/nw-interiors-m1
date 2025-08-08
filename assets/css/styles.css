@@ -29,7 +29,6 @@ h4 {
   font-weight: 400;
   letter-spacing: 2px;
   text-transform: uppercase;
-  margin: 2rem 1.5rem;
 }
 
 .section-flavour-text {
@@ -46,11 +45,6 @@ h4 {
   /* color: */
   font-size: 0.95rem;
   line-height: 1.5rem;
-  padding: 1rem 1.5rem;
-}
-
-.section-description p {
-  margin-bottom: 1.25rem;
 }
 
 /* Span classes */
@@ -170,6 +164,8 @@ h4 {
 }
 
 
+
+
 /* Media queries */
 
 /* Medium devices (tablets, 768px and up) */
@@ -208,9 +204,6 @@ h4 {
     margin: 5rem 0;
   }
 
-  #about .section-description p {
-    margin-bottom: 2rem;
-  }
 }
 
 /* Large screens (small laptops, 992px and up*/
@@ -226,12 +219,4 @@ h4 {
   .header-section:hover .scroll-arrow {
     animation: arrow-scroller 2s ease-in-out backwards infinite;
   }
-
-  /* About section */
-
-  #about .section-description {
-    margin-bottom: 4rem;
-    align-self: end;
-  }
-
 }

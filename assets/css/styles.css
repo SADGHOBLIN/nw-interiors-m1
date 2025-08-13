@@ -233,7 +233,7 @@ h4 {
 
 }
 
-/* Large screens (small laptops, 992px and up*/
+/* Large screens (small laptops, 992px and up) */
 @media screen and (min-width: 992px) {
   /* Header section */
 
@@ -246,4 +246,24 @@ h4 {
   .header-section:hover .scroll-arrow {
     animation: arrow-scroller 2s ease-in-out backwards infinite;
   }
+
+  /* About section */
+
+  #about .section-flavour-text {
+    font-size: 2rem;
+  }
+}
+
+/* Extra large screens (desktop or wide screen, 1200px and up )*/
+@media screen and (min-width: 1200px) {
+
+  /* About section */
+  #about .section-flavour-text {
+    font-size: 2.75rem;
+  }
+
+  #about .section-flavour-text .display-3 {
+    font-size: 5rem;
+  }
+  
 }

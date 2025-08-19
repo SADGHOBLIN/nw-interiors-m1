@@ -252,6 +252,13 @@ h4 {
   #about .section-flavour-text {
     font-size: 2rem;
   }
+
+  /* Portfolio section */
+   #portfolio img {
+    max-height: 70vh;
+    max-width: auto;
+    object-fit: cover;
+  }
 }
 
 /* Extra large screens (desktop or wide screen, 1200px and up )*/
@@ -265,5 +272,29 @@ h4 {
   #about .section-flavour-text .display-3 {
     font-size: 5rem;
   }
-  
+
+  #portfolio .card-title {
+    font-size: 1.25rem;
+    letter-spacing: 0;
+  }
+
+  #portfolio .card-footer {
+    font-size: 0.9rem;
+  }
+
+  #portfolio .ludlow-pebble {
+    order: -3;
+  }
+
+  #portfolio .elmore-jazz {
+    order: -2;
+  }
+
+  #portfolio .slate-nordica {
+    order: 1;
+  }
+
+  #portfolio .spring-cotton {
+    order: -1;
+  }
 }

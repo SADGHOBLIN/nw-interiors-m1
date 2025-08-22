@@ -133,8 +133,7 @@ h4 {
 /* Header section */
 
 #header {
-   height: 100dvh;
-   margin-bottom: 2rem;
+   height: 100vh;
 }
 
 .header-section {
@@ -227,6 +226,7 @@ h4 {
   text-decoration: none;
 }
 
+
 /* Media queries */
 
 /* Small devices (mobile, 425px and under) */
@@ -258,6 +258,10 @@ h4 {
   }
 
   /* About section */
+
+  #about {
+    margin-top: 2rem;
+  }
 
   #about .section-flavour-text {
     padding: 1rem;

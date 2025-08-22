@@ -41,12 +41,12 @@ h4 {
 }
 
 .section-flavour-text {
-  color: var(--primary-dark);
+  color: var(--accent-colour);
   background-color: var(--background-offwhite);
-  box-shadow: 0 1px 8px 1px rgba(164, 154, 135,0.2);
+  box-shadow: 0 1px 8px 3px rgb(172, 158, 132, 0.3);
   font-size: 1.5rem;
   letter-spacing: 1px;
-  padding: 4rem 1.5rem;
+  padding: 2rem 1.5rem;
   text-align: right;
 }
 
@@ -71,7 +71,6 @@ h4 {
 
 #navbar {
   background-color: var(--background-offwhite);
-  opacity: 1;
   min-height: 71px;
 }
 
@@ -185,6 +184,10 @@ h4 {
   height: auto;
 }
 
+#about i {
+  color: var(--accent-colour);
+}
+
 /* Portfolio section */
 
 #portfolio {
@@ -254,16 +257,10 @@ h4 {
     font-size: 2rem;
   }
 
-  /* Header section */
-
-  /* .header-section img {
-    object-position: cover cover;
-  } */
-
   /* About section */
 
   #about .section-flavour-text {
-    padding: 5rem 2rem;
+    padding: 1rem;
     margin: 5rem 0;
   }
 

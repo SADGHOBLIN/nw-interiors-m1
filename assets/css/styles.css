@@ -20,7 +20,7 @@ body {
   font-family: var(--font-body);
   /* push body content underneath fixed nav */
   /* margin-top: 71px; */
-  background-color: var(--background-offwhite);
+  background-color: var(--background-white);
   color: var(--primary-dark);
   box-sizing: border-box;
 }
@@ -229,15 +229,11 @@ h4 {
 
 /* Media queries */
 
-/* Small devices (mobile, 425px and under) */
-@media screen and (max-width: 425px) {
-  body {
-    background-color: var(--background-white);
-  }
-}
-
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
+  body {
+    background-color: var(--background-offwhite);
+  }
   /* Navbar */
 
   #logo-text h1 {

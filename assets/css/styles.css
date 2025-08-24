@@ -72,7 +72,6 @@ h4 {
 #navbar {
   background-color: var(--background-offwhite);
   min-height: 71px;
-
   position: fixed;
   top: 0;
   width: 100%;
@@ -314,6 +313,11 @@ h4 {
 
 /* Extra large screens (desktop or wide screen, 1200px and up )*/
 @media screen and (min-width: 1200px) {
+  /* prevent navbar overlap when jumping to sections through in-page links */
+  .section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
 
   /* About section */
   #about .section-flavour-text {

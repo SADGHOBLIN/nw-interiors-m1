@@ -45,7 +45,6 @@ h4 {
 .section-description {
   color: var(--secondary-dark);
   font-family: var(--font-body);
-  font-size: 0.95rem;
   line-height: 1.5rem;
 }
 
@@ -174,6 +173,7 @@ h4 {
 }
 
 .scroll-arrow {
+  font-size: 2rem;
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -227,16 +227,16 @@ h4 {
 
 #portfolio .card-title {
   font-family: var(--font-body);
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 1.25rem;
   letter-spacing: 1px;
 }
 
 #portfolio .card-footer {
-  font-size: 0.75rem;
+  font-size: 1rem;
   color: var(--secondary-dark);
   background-color: var(--background-white);
   text-align: end;
+  letter-spacing: -0.25px;
 }
 
 #portfolio a {
@@ -288,7 +288,7 @@ h4 {
 
   /* scroll indicator to show on larger screens only when header section is hovered */
   .scroll-arrow {
-    color: white;
+    font-size: 2.5rem;
     animation: none;
   }
 
@@ -326,15 +326,6 @@ h4 {
   }
 
   /* Portfolio section */
-
-  #portfolio .card-title {
-    font-size: 1.25rem;
-    letter-spacing: 0;
-  }
-
-  #portfolio .card-footer {
-    font-size: 0.9rem;
-  }
 
   #portfolio .ludlow-pebble {
     order: -3;

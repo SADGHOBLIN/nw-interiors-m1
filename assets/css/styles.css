@@ -42,16 +42,6 @@ h4 {
   text-transform: uppercase;
 }
 
-.section-flavour-text {
-  color: var(--accent-colour);
-  background-color: var(--background-offwhite);
-  box-shadow: 0 1px 8px 3px rgb(172, 158, 132, 0.3);
-  font-size: 1.5rem;
-  letter-spacing: 1px;
-  /* padding: 2rem 1.5rem; */
-  text-align: right;
-}
-
 .section-description {
   color: var(--secondary-dark);
   font-family: var(--font-body);
@@ -205,6 +195,16 @@ h4 {
   color: var(--accent-colour);
 }
 
+.section-flavour-text {
+  color: var(--accent-colour);
+  background-color: var(--background-offwhite);
+  box-shadow: 0 1px 8px 3px rgb(172, 158, 132, 0.3);
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  padding: 1rem;
+  text-align: right;
+}
+
 /* Portfolio section */
 
 #portfolio {
@@ -279,11 +279,6 @@ h4 {
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
-
-  #about .section-flavour-text {
-    /* padding: 1rem;
-    margin: 2rem 0; */
-  }
 }
 
 /* Large screens (small laptops, 992px and up) */
@@ -323,6 +318,7 @@ h4 {
   
   #about .section-flavour-text {
     font-size: 2.75rem;
+    padding: 2rem 1rem;
   }
 
   #about .section-flavour-text .display-3 {

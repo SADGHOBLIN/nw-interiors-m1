@@ -37,13 +37,12 @@ document
         let section = document.querySelector(e.target.getAttribute("href"));
         if (section) {
             e.preventDefault(); // Prevent default anchor click behavior
-            let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
 
             isProgrammaticScroll = true;
 
-            window.scroll({
-                top: section.offsetTop - navbarHeight, // Adjust for navbar height
+            section.scrollIntoView({
                 behavior: "smooth",
+                block: "start", // alligns top of section to top of viewport
             });
             document
                 .querySelector(".navbar-collapse")

@@ -30,6 +30,10 @@ h4 {
   font-family: var(--font-heading);
 }
 
+.section {
+  scroll-margin-top: 4rem;
+}
+
 .section-title {
   color: var(--primary-dark);
   font-size: 1.5rem;
@@ -314,11 +318,6 @@ h4 {
 
 /* Extra large screens (desktop or wide screen, 1200px and up )*/
 @media screen and (min-width: 1200px) {
-
-  /* .section {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  } */
 
   /* About section */
   

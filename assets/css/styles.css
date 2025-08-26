@@ -307,7 +307,7 @@ h4 {
   /* Portfolio section */
    #portfolio img {
     max-height: 70vh;
-    max-width: auto;
+    width: 100%;
     object-fit: cover;
   }
 }

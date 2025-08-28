@@ -26,9 +26,9 @@
                 </div>
             </a>
             
-            <button type="button" class="btn book-form-btn mt-1 icon" aria-label="Contact me">
+            <a href="#contact" class="btn contact-form-btn mt-1 icon" aria-label="Go to contact form">
                 <i class="fa-regular fa-message"></i>
-            </button>
+            </a>
 
             <button class="navbar-toggler icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa-solid fa-bars"></i>
@@ -80,7 +80,7 @@
 
                 <div class="row justify-content-end">
                     <div class="col-12 col-md-10">
-                        <p class="section-flavour-text">
+                        <p class="about-flavour-text">
                             <i class="fa-solid fa-quote-left display-3 float-start"></i><br>
                             Crafting <span class="bold italic">curated residential spaces</span> defined by the quiet warmth of thoughtful design<br>
                             <i class="fa-solid fa-quote-right"></i>
@@ -238,6 +238,55 @@
                 </div>
 
             </div>
+
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact" class="container section">
+
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-10 p-4 pb-0 my-4 mb-xl-2">
+                    <h2 class="section-title">Contact</h2>
+                </div>
+            </div>
+
+            <!-- TODO: add success.html for contact form -->
+            <form action="" method="GET">
+                <div class="form-box py-4 mx-auto">
+                    <div class="row justify-content-center">
+                        <div class="col-10 col-md-8">
+
+                        <div class="mb-3">
+                            <label for="name">Name</label>
+                            <input id="name" class="form-control" type="text" name="name" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email">Email</label>
+                            <input id="email" class="form-control" type="email" name="email" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="inquiry-type">Inquiry Type</label>
+                            <select id="inquiry-type" class="form-select" name="inquiry-type" required>
+                                <option selected value="">Choose your inquiry</option>
+                                <option value="inquiry">General Inquiry</option>
+                                <option value="freelance">Freelance Services</option>
+                                <option value="employment">Employment</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" name="message" rows="6" required></textarea>
+                        </div>
+
+                        <button type="submit" class="text-center w-100">Submit</button>
+
+                        </div>
+                    </div>
+                </div>
+            </form>
 
         </section>
     </main>

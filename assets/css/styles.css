@@ -34,6 +34,14 @@ h4 {
   scroll-margin-top: 4rem;
 }
 
+/* section boxes */
+#about, #contact {
+  background-color: var(--background-white);
+  width: 100%;
+  height: auto;
+  padding-bottom: 2rem;
+}
+
 .section-title {
   color: var(--primary-dark);
   font-size: 1.5rem;
@@ -115,7 +123,7 @@ h4 {
   box-shadow: none;
 }
 
-#navbar .book-form-btn {
+#navbar .contact-form-btn {
   order: -1;
 }
 
@@ -185,17 +193,11 @@ h4 {
 
 /* About section */
 
-#about {
-  background-color: var(--background-white);
-  width: 100%;
-  height: auto;
-}
-
 #about i {
   color: var(--accent-colour);
 }
 
-.section-flavour-text {
+.about-flavour-text {
   color: var(--accent-colour);
   background-color: var(--background-offwhite);
   box-shadow: 0 1px 8px 3px rgb(172, 158, 132, 0.3);
@@ -244,6 +246,17 @@ h4 {
   text-decoration: none;
 }
 
+/* Contact section */
+
+ #contact form {
+    width: 100%;
+  }
+
+  #contact .form-box {
+    background-color: var(--background-offwhite);
+    max-width: 500px;
+  }
+
 
 /* Media queries */
 
@@ -273,9 +286,10 @@ h4 {
     font-size: 2rem;
   }
 
-  /* About section */
+  /* About, Contact section */
+  /* creates the off-white boundaries between sections */
 
-  #about {
+  #about, #contact {
     margin-top: 2rem;
     margin-bottom: 2rem;
   }

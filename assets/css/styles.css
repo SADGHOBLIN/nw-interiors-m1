@@ -254,7 +254,7 @@ h4 {
 
   #contact .form-box {
     background-color: var(--background-offwhite);
-    max-width: 500px;
+    max-width: 450px;
   }
 
   #contact input, 
@@ -270,6 +270,10 @@ h4 {
     color: var(--background-white);
     border: none;
     border-radius: 8px;
+  }
+
+  #contact .contact-img {
+    display: none;
   }
 
 /* Media queries */
@@ -334,6 +338,21 @@ h4 {
 
    #portfolio img {
     max-height: 70vh;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  /* Contact section */
+  #contact .form-box {
+    max-width: 100%;
+  }
+
+  #contact .contact-img {
+    display: block;
+  }
+
+  #contact .contact-img img{
+    height: 100%;
     width: 100%;
     object-fit: cover;
   }

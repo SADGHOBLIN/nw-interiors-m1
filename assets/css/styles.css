@@ -87,10 +87,6 @@ h4 {
 
 #navbar .logo {
   color: var(--primary-dark);
-  position: absolute;
-  top: 10px;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 #logo-text h1 {
@@ -121,10 +117,6 @@ h4 {
 /* remove Bootstrap property causing burger icon to highlight when clicked */
 #navbar .navbar-toggler:focus {
   box-shadow: none;
-}
-
-#navbar .contact-form-btn {
-  order: -1;
 }
 
 #navbar a {

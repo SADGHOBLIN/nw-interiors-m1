@@ -70,11 +70,11 @@ h4 {
 
 #navbar {
   background-color: var(--background-offwhite);
-  min-height: 71px;
   position: fixed;
   top: 0;
   width: 100%;
   height: auto;
+  min-height: 71px;
   z-index: 99;
   transition: top 0.4s ease-in-out, opacity 0.5s ease-in-out;
 }
@@ -312,20 +312,12 @@ h4 {
   /* Navbar */
 
   #logo-text h1 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     letter-spacing: 2px;
   }
   #logo-text p {
     font-size: 1.25rem;
     margin-top: -5px
-  }
-
-  #navbar .logo {
-    top: 0;
-  }
-
-  #navbar i {
-    font-size: 2rem;
   }
 
   /* About, Contact section */
@@ -399,6 +391,13 @@ h4 {
 
 /* Extra large screens (desktop or wide screen, 1200px and up )*/
 @media screen and (min-width: 1200px) {
+
+  /* Navbar */
+  #navbar .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 
   /* About section */
   

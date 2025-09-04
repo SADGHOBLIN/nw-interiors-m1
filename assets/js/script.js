@@ -51,7 +51,7 @@ document
             setTimeout(() => { 
                 isProgrammaticScroll = false; 
                 prevScrollpos = window.pageYOffset;
-            }, 600);
+            }, 800);
         }
     });
 });

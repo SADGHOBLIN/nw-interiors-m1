@@ -35,7 +35,7 @@ h4 {
 }
 
 /* section boxes */
-#about, #contact {
+#about, #portfolio, #contact {
   background-color: var(--background-white);
   width: 100%;
   height: auto;
@@ -200,11 +200,6 @@ h4 {
 }
 
 /* Portfolio section */
-
-#portfolio {
-  background-color: var(--background-white);
-  width: 100%;
-}
 
 /* override Bootstrap card class */
 #portfolio .card {

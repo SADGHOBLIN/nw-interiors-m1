@@ -146,7 +146,7 @@ h4 {
 }
 
 .header-section {
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
   margin: 0;
   padding: 0;
@@ -182,6 +182,32 @@ h4 {
   color: var(--accent-colour);
   opacity: 0;
   animation: arrow-scroller 2s ease-in-out backwards infinite;
+}
+
+.cta-wrapper {
+  background-color: var(--background-offwhite);
+  opacity: 0.92;
+  width: auto;
+  height: auto;
+  padding: 1rem;
+  box-shadow: -1px 2px 2px 1px rgb(172, 158, 132, 0.1);
+}
+
+.cta-wrapper h2 {
+  font-size: 1.25rem;
+  color: var(--primary-dark);
+  letter-spacing: 0px;
+}
+
+.cta-wrapper .btn {
+  background-color: var(--accent-colour);
+  color: var(--background-white);
+  border: 1px solid var(--primary-dark);
+  font-family: var(--font-heading);
+  border-radius: 8px;
+  font-size: 0.95rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 /* About section */
@@ -326,6 +352,16 @@ h4 {
     margin-top: -5px
   }
 
+  /* Header section */
+
+  .header-section {
+    height: 100vh;
+  }
+
+  .cta-wrapper {
+  width: 35vw;
+  }
+
   /* About, Contact section, Success page */
   /* creates the off-white boundaries between sections */
 
@@ -370,6 +406,10 @@ h4 {
     animation: arrow-scroller 2s ease-in-out backwards infinite;
   }
 
+  .cta-wrapper {
+    width: 25vw;
+  }
+
   /* About section */
 
   #about .section-flavour-text {
@@ -408,6 +448,12 @@ h4 {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+  }
+
+  /* Header section */
+  
+  .cta-wrapper {
+    width: 20vw;
   }
 
   /* About section */

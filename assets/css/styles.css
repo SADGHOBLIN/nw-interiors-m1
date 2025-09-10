@@ -35,7 +35,7 @@ h4 {
 }
 
 /* section boxes */
-#about, #portfolio, #contact, #success {
+#about, #portfolio, #contact, #success, #error {
   background-color: var(--background-white);
   width: 100%;
   height: auto;
@@ -48,6 +48,16 @@ h4 {
   font-weight: 400;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+
+/* buttons */
+#contact button,
+#success .btn,
+#error .btn {
+  background-color: var(--accent-colour);
+  color: var(--background-white);
+  border: none;
+  border-radius: 8px;
 }
 
 .section-description {
@@ -279,19 +289,12 @@ h4 {
   margin-top: 3px;
 }
 
-#contact button,
-#success .btn {
-  background-color: var(--accent-colour);
-  color: var(--background-white);
-  border: none;
-  border-radius: 8px;
-}
-
 #contact .contact-img {
   display: none;
 }
 
 /* Footer section */
+
 #footer {
   color: var(--primary-dark);
   background-color: var(--background-offwhite);
@@ -323,12 +326,14 @@ h4 {
   padding: 5px 0;
 }
 
-/* Success page */
+/* Success and Error pages */
 
-#success {
+#success,
+#error {
   margin-top: 72px;
 }
-#success .row {
+#success .row,
+#error .row {
   height: 60vh;
 }
 
@@ -362,15 +367,16 @@ h4 {
   width: 35vw;
   }
 
-  /* About, Contact section, Success page */
+  /* About, Contact section, Success, Error pages */
   /* creates the off-white boundaries between sections */
 
-  #about, #contact, #success {
+  #about, #contact, #success, #error {
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
 
   /* Footer section */
+
   #footer {
     background-color: var(--background-white);
     text-align: left;
@@ -386,7 +392,9 @@ h4 {
   }
 
   /* Success page */
-  #success {
+
+  #success,
+  #error {
     margin-top: 79px;
   }
 }
@@ -425,6 +433,7 @@ h4 {
   }
 
   /* Contact section */
+
   #contact .form-box {
     max-width: 100%;
   }
@@ -444,6 +453,7 @@ h4 {
 @media screen and (min-width: 1200px) {
 
   /* Navbar */
+
   #navbar .logo {
     position: absolute;
     left: 50%;

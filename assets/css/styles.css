@@ -326,6 +326,11 @@ h4 {
   padding: 5px 0;
 }
 
+#footer .dev-credit {
+  font-size: 11.9px;
+  color: var(--accent-colour);
+}
+
 /* Success and Error pages */
 
 #success,

@@ -18,6 +18,7 @@ The site will serve as a **central hub** that invites visitors to **learn about 
 I chose this project as my partner is a freelance interior designer with a genuine need for an online presence for her business. Taking on a project with **real world value** for someone important to me provides me the opportunity to challenge myself and push my skills.
 
 ![screenshot](documentation/site-responsive-mockups.png)
+
 source: [nw-interiors-m1 amiresponsive](https://ui.dev/amiresponsive?url=https://sadghoblin.github.io/nw-interiors-m1)
 
 ## UX

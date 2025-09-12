@@ -302,6 +302,7 @@ h4 {
   text-align: center;
 }
 
+#footer i,
 #footer a {
   color: var(--accent-colour);
   text-decoration: none;
@@ -385,10 +386,6 @@ h4 {
   #footer {
     background-color: var(--background-white);
     text-align: left;
-  }
-
-  #footer a {
-    color: var(--primary-dark);
   }
 
   #footer hr {

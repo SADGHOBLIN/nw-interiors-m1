@@ -111,3 +111,18 @@ To reflect the designer's creative identity, **FontAwesome** icons were integrat
 
 - [FontPair](https://www.fontpair.co/pairings/manrope-lora) was used to find a cohesive set of fonts that compliment one another.
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
+
+
+## Wireframes
+
+To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
+[Figma](https://www.figma.com/) was used to design the wireframes for this site. The full file can be viewed [here](https://www.figma.com/design/5wzjNNIanay33PBcxIJdiu/nw-interiors-wireframes?node-id=0-1&t=3WIsrVRLXakJtyCU-1).
+
+| Page | Wireframe - desktop, tablet, mobile |
+| --- | --- |
+| Home section | ![screenshot](documentation/wireframes/wireframe-home.png) |
+| About section | ![screenshot](documentation/wireframes/wireframe-about.png) |
+| Portfolio section | ![screenshot](documentation/wireframes/wireframe-portfolio.png) |
+| Footer section | ![screenshot](documentation/wireframes/wireframe-footer.png) |
+| Services page | ![screenshot](documentation/wireframes/wireframe-services.png) |
+| Projects page | ![screenshot](documentation/wireframes/wireframe-projects.png) |

@@ -253,3 +253,22 @@ As a website visitor, I want to informed of an errors that prevent me from navig
 - **Inspiraiton Boards**: Building on the blog, inspiration boards would feature images, moodboards, and ideas related to upcoming trends. This could be useful for potential clients, but also a starting place for a creative community to be establishes on the site. It would be encouraged to share these on social media, building the designer's visibility and userbase.
 
 - **Favourites Catalog**: Expanding on the inspiration board, in-trend items could be curated and featured on the site, opening up opportunities for the designer to pursue relationships with suppliers.
+
+## Tools & Technologies
+
+| Tool / Tech | Use |
+| --- | --- |
+| [![badge](https://img.shields.io/badge/Markdown_Builder-grey?logo=markdown&logoColor=000000)](https://markdown.2bn.dev) | Generate README and TESTING templates. |
+| [![badge](https://img.shields.io/badge/Git-grey?logo=git&logoColor=F05032)](https://git-scm.com) | Version control. (`git add`, `git commit`, `git push`) |
+| [![badge](https://img.shields.io/badge/GitHub-grey?logo=github&logoColor=181717)](https://github.com) | Secure online code storage. |
+| [![badge](https://img.shields.io/badge/VSCode-grey?logo=htmx&logoColor=007ACC)](https://code.visualstudio.com) | Local IDE for development. |
+| [![badge](https://img.shields.io/badge/HTML-grey?logo=html5&logoColor=E34F26)](https://en.wikipedia.org/wiki/HTML) | Main site content and layout. |
+| [![badge](https://img.shields.io/badge/CSS-grey?logo=css&logoColor=1572B6)](https://en.wikipedia.org/wiki/CSS) | Design and layout. |
+| [![badge](https://img.shields.io/badge/GitHub_Pages-grey?logo=githubpages&logoColor=222222)](https://pages.github.com) | Hosting the deployed front-end site. |
+| [![badge](https://img.shields.io/badge/Bootstrap-grey?logo=bootstrap&logoColor=7952B3)](https://getbootstrap.com) | Front-end CSS framework for modern responsiveness and pre-built components. |
+| [![badge](https://img.shields.io/badge/Figma-grey?logo=figma&logoColor=F24E1E)](https://www.figma.com) | Creating wireframes. |
+| [![badge](https://img.shields.io/badge/Font_Awesome-grey?logo=fontawesome&logoColor=528DD7)](https://fontawesome.com) | Icons. |
+| [![badge](https://img.shields.io/badge/Favicon.io-grey?logo=file.io&logoColor=528DDA)](https://fontawesome.com) | Site favicon. |
+| [![badge](https://img.shields.io/badge/Google_Fonts_/_Adobe_Fonts-grey?logo=googlefonts&logoColor=1572B7)](https://www.w3schools.com) | Fonts |
+| [![badge](https://img.shields.io/badge/ChatGPT-grey?logo=openai&logoColor=75A99C)](https://chat.openai.com) | Help debug, troubleshoot, and explain things. |
+| [![badge](https://img.shields.io/badge/W3Schools-grey?logo=w3schools&logoColor=04AA6D)](https://www.w3schools.com) | Tutorials/Reference Guide |

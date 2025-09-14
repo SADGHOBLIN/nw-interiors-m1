@@ -224,6 +224,7 @@ As a website visitor, I want to informed of an errors that prevent me from navig
 
 
 ## Features
+### Existing Features
 | Feature | Notes | Screenshot |
 | --- | --- | --- |
 | Navbar | Featured on all three pages, the fully responsive navigation bar includes links to the Home section, About section, Portfolio section, and Contact section, and is identical in each page to allow for easy navigation. On smaller screens, a burger icon is used to toggle the navbar so it doesn't take up too much space. This section will allow the user to easily navigate from page to page or section to section across all devices without having to revert back to the previous page via the "back" button. | ![screenshot](documentation/features/navbar.png) |
@@ -234,3 +235,21 @@ As a website visitor, I want to informed of an errors that prevent me from navig
 | Footer | The footer sits below the contact form and includes links to the relevant social media sites for *Nadia Wrotecka Interiors*. The links will open in a new tab to allow easy navigation for the user. The footer is valuable to the user, as it encourages them to keep connected via social media, whilst also providing more contact information about the business. A link to the developer's GitHub is also included, which opens ina  new tab, should the user wish to find out more about the design of the site. | ![screenshot](documentation/features/footer.png) |
 | Success page | The confirmation page will give the illusion that the contact form was submitted successfully to the *Nadia Wrotecka Interiors*, confirming their input. Due to the lack of a database or email system so far, this is a fake confirmation page, and the user can navigate back to the main site through the navbar or button. | ![screenshot](documentation/features/success.png) |
 | 404 page | The 404 error page will indicate when a user has somehow navigated to a page that doesn't exist. This replaces the default GitHub Pages 404 page, and ties-in with the look and feel of the *Nadia Wrotecka Interiors* site by using the standard navbar and footer. | ![screenshot](documentation/features/error404.png) |
+
+### Future Features
+
+- **Projects Page**: An in-depth exploration of work seen in the Portfolio section. Containing further project details, moodboards, and a breakdown of the designer's process. This would be very useful for potential employers in understanding the designer's workflow.
+
+- **Services Page**: A page that provides a breakdown of the design services provided by *Nadia Wrotecka Interiors*, including pricing and examples. Potential freelance clients would find this helpful when contacting about pitching projects.
+
+- **Services FAQ**: A section found alongside the contact form, and services page, containing a list of frequent questions. Answering basic common questions before a potential client has to get in touch improves the experience of these particular users, whilst saving the designer time.
+
+- **Calendar Appointment Booking**: Providing the user with an option to book a consultation through a live calendar provides them with more agency, as they do not have to wait for a response from their submitted form, instead they can take an action that has a definite outcome. The aim of this feature would be to increase the conversion rate of inquiries.
+
+- **Testamonials**: Including a testamonials section increases the creditibility of the designer, establishing a greater level of trust between her and new users.
+
+- **Designer Blog**: A blog section builds a greater presence of personality within the site, allowing the designer to post her thoughts, ideas, and personal work for users to explore. Interested users can learn more about the designer's creative process and rationale.
+
+- **Inspiraiton Boards**: Building on the blog, inspiration boards would feature images, moodboards, and ideas related to upcoming trends. This could be useful for potential clients, but also a starting place for a creative community to be establishes on the site. It would be encouraged to share these on social media, building the designer's visibility and userbase.
+
+- **Favourites Catalog**: Expanding on the inspiration board, in-trend items could be curated and featured on the site, opening up opportunities for the designer to pursue relationships with suppliers.

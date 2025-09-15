@@ -33,7 +33,7 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 
 ## Responsiveness
 
-I've tested my deployed project to check for responsiveness issues across mobile, tablet, and desktop.
+I've tested my deployed project to check for responsiveness issues across mobile, tablet, and desktop on the suitable devices. There were no major issues found and everything works as intended.
 
 | Page | Mobile | Tablet | Desktop | Notes |
 | --- | --- | --- | --- | --- |
@@ -44,3 +44,17 @@ I've tested my deployed project to check for responsiveness issues across mobile
 | Footer | ![screenshot](documentation/responsiveness/mobile-footer.png) | ![screenshot](documentation/responsiveness/tablet-footer.png) | ![screenshot](documentation/responsiveness/desktop-footer.png) | Works as expected |
 | Success | ![screenshot](documentation/responsiveness/mobile-success.png) | ![screenshot](documentation/responsiveness/tablet-success.png) | ![screenshot](documentation/responsiveness/desktop-success.png) | Works as expected |
 | 404 | ![screenshot](documentation/responsiveness/mobile-404.png) | ![screenshot](documentation/responsiveness/tablet-404.png) | ![screenshot](documentation/responsiveness/desktop-404.png) | Works as expected |
+
+
+## Browser Compatibility
+
+I've tested my deployed project on multiple browsers to check for compatibility issues. There are no known issues, and site also behave responsively as expected.
+
+| Page | Chrome | Firefox | Edge | Notes |
+| --- | --- | --- | --- | --- |
+| Home | ![screenshot](documentation/browsers/chrome-home.png) | ![screenshot](documentation/browsers/firefox-home.png) | ![screenshot](documentation/browsers/edge-home.png) | Works as expected |
+| About | ![screenshot](documentation/browsers/chrome-about.png) | ![screenshot](documentation/browsers/firefox-about.png) | ![screenshot](documentation/browsers/edge-about.png) | Works as expected |
+| Portfolio | ![screenshot](documentation/browsers/chrome-portfolio-1.png) ![screenshot](documentation/browsers/chrome-portfolio-2.png) | ![screenshot](documentation/browsers/firefox-portfolio-1.png) ![screenshot](documentation/browsers/firefox-portfolio-2.png) | ![screenshot](documentation/browsers/edge-portfolio-1.png) ![screenshot](documentation/browsers/edge-portfolio-2.png) | Works as expected |
+| Contact (w/ Footer) | ![screenshot](documentation/browsers/chrome-contact.png) | ![screenshot](documentation/browsers/firefox-contact.png) | ![screenshot](documentation/browsers/edge-contact.png) | Works as expected |
+| Success | ![screenshot](documentation/browsers/chrome-success.png) | ![screenshot](documentation/browsers/firefox-success.png) | ![screenshot](documentation/browsers/edge-success.png) | Works as expected |
+| 404 | ![screenshot](documentation/browsers/chrome-404.png) | ![screenshot](documentation/browsers/firefox-404.png) | ![screenshot](documentation/browsers/edge-404.png) | Works as expected |

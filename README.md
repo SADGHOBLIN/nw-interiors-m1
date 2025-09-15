@@ -354,3 +354,40 @@ By forking the GitHub Repository, you make a copy of the original repository on 
 ### Local VS Deployment
 
 There are no known major differences between the local version when compared to the deployed version online.
+
+
+## Credits
+
+### Content
+
+| Source | Notes |
+| --- | --- |
+| [Markdown Builder](https://markdown.2bn.dev) | Help generating Markdown files. |
+| [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) | Pre-built components were used as templates for several site elements, such as the navbar. Bootstrap's grid system and utility classes were also used for responsive layout. |
+| [CodeInstitute](https://codeinstitute.net/) | Code snipped from the *Boardwalk Games* walkthrough project was used to implement JS logic for navbar functionality on mobile. |
+| [ChatGPT](https://chatgpt.com/) | Help with code logic, concepts, explanations, and debugging. |
+| [W3schools - Picture Element]( https://www.w3schools.com/html/html_images_picture.asp) | Implemented to display different images on different devices efficiently to improve user experience.
+| [W3schools - CSS Animations](https://www.w3schools.com/css/css3_animations.asp) | Explanation guide on CSS animations, used to create scroll indicator in header. |
+| [W3schools - Pattern Attribute](https://www.w3schools.com/tags/att_input_pattern.asp) | Used to explain how to build a regular expression in the form to restrict user input to the expected format. |
+| [W3schools - Hide Navbar on Scroll](https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp) | Adapted CodeInstitute's JS snippet with the help of this guide, and ChatGPT, to create JS logic that would hide the navbar when the user is scrolling. 
+
+### Media
+
+All main **media images** displayed on this site are used with explicit permission from **Nadia Wrotecka**, who has transfered the raw files and granted me the rights to use her images for this project.
+
+Unless stated below, the images on the site were sent to me by the owner, **Nadia Wrotecka**, who has allowed me to edit and crop the images as I see fit for this project.
+
+| Source | Notes |
+| --- | --- |
+| [favicon.io](https://favicon.io) | Generating the favicon images and files. |
+| [Font Awesome](https://fontawesome.com) | All icons used throughout the site are from FontAwesome. |
+| [Adobe Fonts - Lora](https://fonts.adobe.com/fonts/lora) | Main heading font, more information in the [Typography](#typography) section. |
+| [Google Fonts - Manrope](https://fonts.google.com/specimen/Manrope) | Body font, more information in the [Typography](#typography) section. |
+| [Adobe Express](https://www.adobe.com/express/feature/image/editor) | Online tool for resizing and cropping images. |
+| [CloudConvert](https://cloudconvert.com/webp-converter) | Converting images to `.webp` |
+
+### Acknowledgements
+
+- I would like to thank my Code Institute mentor, [Tim Nelson](https://www.github.com/TravelTimN) for the support throughout the development of this project.
+
+- I would like to thank my partner for her continued support as I take on a new challenge, for being the inspiration behind this project, and providing me with the images to build this website around.

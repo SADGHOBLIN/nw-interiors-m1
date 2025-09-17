@@ -302,8 +302,9 @@ h4 {
   text-align: center;
 }
 
-#footer address {
+#footer address p {
   font-size: 0.85rem;
+  -webkit-text-size-adjust: 100%;
 }
 
 #footer i,

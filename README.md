@@ -2,6 +2,8 @@
 
 Developer: Matt McCarthy ([SADGHOBLIN](https://www.github.com/SADGHOBLIN))
 
+Live site can be viewed here: [Nadia Wrotecka Interiors | Freelance Interior Design Services](https://sadghoblin.github.io/nw-interiors-m1/)
+
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/t/SADGHOBLIN/nw-interiors-m1)](https://www.github.com/SADGHOBLIN/nw-interiors-m1/commits/main)
 [![GitHub last commit](https://img.shields.io/github/last-commit/SADGHOBLIN/nw-interiors-m1)](https://www.github.com/SADGHOBLIN/nw-interiors-m1/commits/main)
 [![GitHub repo size](https://img.shields.io/github/repo-size/SADGHOBLIN/nw-interiors-m1)](https://www.github.com/SADGHOBLIN/nw-interiors-m1)

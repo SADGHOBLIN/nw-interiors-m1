@@ -107,3 +107,33 @@ Defensive programming was manually tested with the below user acceptance testing
 | [Social Media Links](https://github.com/SADGHOBLIN/nw-interiors-m1/issues/4) | As a user | I would like to connect with the designer on other social media platforms | so that I can stay up to date with their work, or keep them in mind for future projects / inspiration. | ![screenshot](documentation/features/footer.png) |
 | [Submission Confirmation](https://github.com/SADGHOBLIN/nw-interiors-m1/issues/5) | As a user | I would like to receive confirmation that my form has been submitted | so that I know that my details have been inputted correctly, and were received by the designer. | ![screenshot](documentation/features/success.png) |
 | [404](https://github.com/SADGHOBLIN/nw-interiors-m1/issues/12) | As a user | I want to see a 404 error page if I get lost | so that it's obvious that I have come across a page that doesn't exist, and be redirected back to the main site. | ![screenshot](documentation/features/error404.png) |
+
+
+## Bugs
+
+### Fixed Bugs
+
+[![GitHub issue custom search](https://img.shields.io/github/issues-search/SADGHOBLIN/nw-interiors-m1?query=is%3Aissue%20is%3Aclosed%20label%3Abug&label=Fixed%20Bugs&color=green)](https://www.github.com/SADGHOBLIN/nw-interiors-m1/issues?q=is%3Aissue+is%3Aclosed+label%3Abug)
+
+I've used [GitHub Issues](https://www.github.com/SADGHOBLIN/nw-interiors-m1/issues) to track and manage bugs / issues during the development stages of my project.
+
+All previously closed/fixed bugs can be tracked [here](https://www.github.com/SADGHOBLIN/nw-interiors-m1/issues?q=is%3Aissue+is%3Aclosed+label%3Abug).
+
+![screenshot](documentation/bugs/bugs-closed.png)
+
+### Unfixed Bugs
+
+After conducting thorough testing, there are no known remaining bugs, but any remaining open issues can be tracked [here](https://www.github.com/SADGHOBLIN/nw-interiors-m1/issues?q=is%3Aissue+is%3Aopen+label%3Abug).
+
+![screenshot](documentation/bugs/bugs-open.png)
+![screenshot](documentation/bugs/issues-open.png)
+
+### Known Issues
+
+| Issue | Screenshot |
+| --- | --- |
+| On devices smaller than 320px, the layout starts to break resulting in a poor user experience. It is very unlikely that users will be visiting the site on a device of this size, with the typical modern mobile devices having a screen width of at least 360px| ![screenshot](documentation/bugs/issues-small-devices-1.png) ![screenshot](documentation/bugs/issues-small-devices-2.png) |
+| When clicking links in the navbar, or the CTA button, the intended behaviour of the scroll is sometimes unpredictable. The expected behaviour is to move to the section, and for the navbar to remain `visible`. This works sometimes, as seen in the 2nd screenshot, but sometimes the navbar will `hide`, as seen in the last screenshot. The navbar is only supposed to `hide` when the user scrolls down the site, not when a navlink is clicked. This is **acceptable**, as I know that this issue is caused by my JS, which is beyond the scope of this project currently. I believe it is something to do with either, the threshold value, or my timeout value found in [script.js](assets/js/script.js). I plan to resolve this in the future after working through Milestone Project 2 and the JavaScript materials. | ![screenshot](documentation/bugs/issues-navjs-1.png) ![screenshot](documentation/bugs/issues-navjs-2.png) ![screenshot](documentation/bugs/issues-navjs-3.png) |
+
+> [!IMPORTANT]  
+> There are no remaining bugs that I am aware of, though, even after thorough testing, I cannot rule out the possibility.

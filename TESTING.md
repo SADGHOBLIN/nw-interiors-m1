@@ -62,6 +62,9 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 ## Lighthouse Audit
 
+Upon performing audits, I realised that I had not converted two images from `.jpg` to `.webP`. I proceeded to convert these images to `.webP` before re-running the audit tests.
+![screenshot](documentation/lighthouse/lighthouse-jpg-images.png)
+
 I've tested my deployed project using the Lighthouse Audit tool to check for any major issues. Some warnings are outside of my control, and mobile results tend to be lower than desktop.
 
 The performance results for the main index page are acceptable, as the lower scores are a result of the image sizes. Since this is a portfolio website, it is necessary for the images to be of high quality, and therefore it is acceptable to sacrifice the load time at the expense of ensuring the images are crisp. They have been reduced and converted to webp to optimise them as much as possible.

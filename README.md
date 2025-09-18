@@ -19,6 +19,8 @@ The site will serve as a **central hub** that invites visitors to **learn about 
 
 I chose this project as my partner is a freelance interior designer with a genuine need for an online presence for her business. Taking on a project with **real world value** for someone important to me provides me the opportunity to challenge myself and push my skills.
 
+This completed project will act as a **professional portfolio** that can be sent to employers, allowing the designer to present their work in a clean, well-designed manner that **amplifies** their work, with a minimalist layout that champions the design work. It will provide **clear and accessible context** to her background, experience, and education. The **justification** of using a website formats means that the designer can simply provide the **target audience** (potential employers or clients) with a link to the site, where the content loads **quicky**, is **responsive** to their device, with a **well-designed layout**. Images can be of **high quality** whilst remaining **lightweight**, due to the `.webP` format. This is far more convient and accessible than sending a CV and Portfolio PDF attached to an email, **reducing the friction between the designer and her target audience**.
+
 ![screenshot](documentation/site-responsive-mockups.png)
 
 source: [nw-interiors-m1 amiresponsive](https://ui.dev/amiresponsive?url=https://sadghoblin.github.io/nw-interiors-m1)
